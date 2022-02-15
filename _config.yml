@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: jwiaduck
 # repository: "jwiaduck/jwiaduck.github.io"
 minimal_mistakes_skin: dirt
-search: false
+search: true
 # masthead_title: "My Custom Title"
 
 # Build settings
