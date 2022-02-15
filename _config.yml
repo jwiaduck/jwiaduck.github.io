@@ -4,6 +4,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 #
 # Adapted by jwiaduck
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: jwiaduck@github.io
 email: jwiaduck@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -17,7 +18,6 @@ search: false
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -58,13 +58,13 @@ author:
   bio    : "oib"
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      # icon: "fas fa-fw fa-link"
       url: "https://jwiaduck@github.io"
     - label: "LinkedIn"
     #   icon: "fab fa-fw fa-twitter-square"
        url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      # icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -75,13 +75,13 @@ footer:
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      # icon: "fas fa-fw fa-link"
       url: "https://jwiaduck@github.io"
     - label: "LinkedIn"
     # icon: "fab fa-fw fa-twitter-square"
        url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      # icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
 
 
