@@ -1,7 +1,113 @@
-remote_theme: pages-themes/minimal@v0.2.0
+# Welcome to Jekyll!
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+title: jwiaduck@github.io
+email: jwiaduck@umich.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Student at the University of Michigan studying Computer Science Engineering.
+  Interested in Affective ML, Software Engineering, and Security.
+github_username: jwiaduck
+repository: "jwiaduck/jwiaduck.github.ioo"
+minimal_mistakes_skin: dirt
+search: false
+# masthead_title: "My Custom Title"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/New_Yorks # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Disable RSS icon in header/footer
+atom_feed:
+  hide: true
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: jwiaduck.github.io
-description: A website to share my projects, work, thoughts, and whatever else I deem worthy.
-show_downloads: false
-google_analytics: G-L8XPV30859
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "James Wiaduck"
+  avatar : # "/assets/images/bio-photo.jpg"
+  bio    : "oib"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jwiaduck@github.io"
+    - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-twitter-square"
+       url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jwiaduck"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+
+footer:
+  links:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jwiaduck@github.io"
+    - label: "LinkedIn"
+    # icon: "fab fa-fw fa-twitter-square"
+       url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jwiaduck"
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: true
+      # show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
