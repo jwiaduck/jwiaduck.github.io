@@ -56,7 +56,7 @@ plugins:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : "oib"
+  bio    : "bio"
   links:
     - label: "Website"
       # icon: "fas fa-fw fa-link"
