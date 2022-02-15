@@ -1,9 +1,7 @@
 # James Wiaduck
 
-Student at the University of Michigan studying Computer Science Engineering.
-
-Interested in Affective ML, Software Engineering, and Security.
+CS @ Umich
 
 jwiaduck AT umich DOT edu
 
-mmistakes: https://github.com/mmistakes/minimal-mistakes/
+src derived from mmistakes: https://github.com/mmistakes/minimal-mistakes/
