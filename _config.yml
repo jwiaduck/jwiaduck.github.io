@@ -17,6 +17,7 @@ search: false
 # masthead_title: "My Custom Title"
 
 # Build settings
+cancel-in-progress: true
 markdown: kramdown
 # Outputting
 permalink: /:categories/:title/
@@ -83,8 +84,6 @@ footer:
     - label: "GitHub"
       # icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
-
-
 defaults:
   # _posts
   - scope:
