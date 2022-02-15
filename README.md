@@ -1,6 +1,6 @@
 # James Wiaduck
 
-Student at the University of Michigan studying Computer Science Engineering.
+CS @ Umich
 
 jwiaduck AT umich DOT edu
 
