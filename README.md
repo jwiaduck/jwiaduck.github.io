@@ -4,4 +4,4 @@ CS @ Umich
 
 jwiaduck AT umich DOT edu
 
-mmistakes: https://github.com/mmistakes/minimal-mistakes/
+src derived from mmistakes: https://github.com/mmistakes/minimal-mistakes/
