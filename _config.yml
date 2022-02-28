@@ -58,6 +58,9 @@ author:
   avatar : # "/assets/images/bio-photo.jpg"
   bio    : "CSE @ UMich '22"
   links:
+    - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jwiaduck+github@umich.edu"
     - label: "Website"
       # icon: "fas fa-fw fa-link"
       url: "https://jwiaduck@github.io"

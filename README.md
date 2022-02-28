@@ -1,5 +1,5 @@
 # James Wiaduck
 
-CS @ Umich
+CSE @ Umich
 
 jwiaduck+github AT umich DOT edu
