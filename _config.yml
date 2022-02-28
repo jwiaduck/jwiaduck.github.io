@@ -56,7 +56,7 @@ plugins:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : "bio"
+  bio    : "CSE @ UMich '22"
   links:
     - label: "Website"
       # icon: "fas fa-fw fa-link"
