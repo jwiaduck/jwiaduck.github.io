@@ -2,4 +2,4 @@
 
 CS @ Umich
 
-jwiaduck AT umich DOT edu
+jwiaduck+github AT umich DOT edu
