@@ -63,8 +63,9 @@ whitelist:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : |
+  bio    : |-
     Software Development Engineer.
+
     CSE @ Umich. 
   links:
     - label: "Email"
@@ -73,12 +74,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jwiaduck@github.io"
-    - label: "LinkedIn"
-      icon: "<fa-brands fa-linkedin-in"
-      url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
+    - label: "LinkedIn"
+      icon: "<fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
