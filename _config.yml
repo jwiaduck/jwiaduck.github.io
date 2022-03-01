@@ -56,8 +56,7 @@ plugins:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : >
-          Software Development Engineer | CSE @ Umich '22. 
+  bio    : "Software Development Engineer, CSE @ Umich '22.""
   links:
     # - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
