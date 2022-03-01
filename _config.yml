@@ -65,7 +65,6 @@ author:
   avatar : # "/assets/images/bio-photo.jpg"
   bio    : |-
     Software Development Engineer.
-    
     CSE @ Umich. 
   links:
     - label: "Email"
@@ -78,7 +77,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
