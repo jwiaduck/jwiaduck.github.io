@@ -5,7 +5,7 @@
 #
 # Adapted by jwiaduck
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-title: jwiaduck@github.io
+title: jwiaduck
 email: jwiaduck+github@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Student at the University of Michigan studying Computer Science Engineering.
@@ -50,7 +50,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
 
 author:
@@ -69,7 +76,7 @@ author:
     #    url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jwiaduck"
+     # url: "https://github.com/jwiaduck"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
