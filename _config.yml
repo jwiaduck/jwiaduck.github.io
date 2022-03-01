@@ -63,7 +63,9 @@ whitelist:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : "Software Development Engineer, CSE @ Umich '22.""
+  bio    : > 
+    Software Development Engineer, CSE @ Umich '22. 
+    Interested in Affective ML, Software Engineering, and Security.
   links:
     # - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
@@ -75,13 +77,16 @@ author:
     # #   icon: "fab fa-fw fa-twitter-square"
     #    url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+     # icon: "fab fa-fw fa-github"
      # url: "https://github.com/jwiaduck"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 footer:
   links:
+    # - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:jwiaduck+github@umich.edu"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
