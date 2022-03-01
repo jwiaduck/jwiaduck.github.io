@@ -56,7 +56,9 @@ plugins:
 author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
-  bio    : "CSE @ UMich '22\n Email: jwiaduck+github AT umich DOT edu"
+  bio    : >
+          CSE @ Umich '22
+          Email: jwiaduck+github AT umich DOT edu
   links:
     # - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
