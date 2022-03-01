@@ -64,7 +64,8 @@ author:
   name   : "James Wiaduck"
   avatar : # "/assets/images/bio-photo.jpg"
   bio    : > 
-    Software Development Engineer, CSE @ Umich. 
+    Software Development Engineer.
+    CSE @ Umich. 
   links:
     # - label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
@@ -76,7 +77,7 @@ author:
     # #   icon: "fab fa-fw fa-twitter-square"
     #    url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     - label: "GitHub"
-     # icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
