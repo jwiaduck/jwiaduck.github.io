@@ -9,4 +9,4 @@ tags:
 
 This is my first post! A bit of a test for now...
 
-Head on over the about page to see a bit more about me!
+Head on over the About page to learn a bit more about me!
