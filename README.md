@@ -1,4 +1,4 @@
-# jwiaduck@github.io
+# jwiaduck
 
 A personal website hosted on GitHub pages.
 
