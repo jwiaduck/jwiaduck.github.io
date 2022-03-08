@@ -7,26 +7,28 @@
 #
 # 2022
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-title: jwiaduck@github.io
-email: jwiaduck+github@umich.edu
+remote_theme              : "mmistakes/minimal-mistakes@4.24.0"
+title                     : jwiaduck.github.io
+email                     : jwiaduck+github@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Student at the University of Michigan studying Computer Science Engineering.
   Interested in Affective ML, Software Engineering, and Security.
-github_username: jwiaduck
-# repository: "jwiaduck/jwiaduck.github.io"
-minimal_mistakes_skin: "air"
-search: false
+url                       : https://jwiaduck.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                   : / # the subpath of your site, e.g. "/blog"
+github_username           : jwiaduck
+repository                : "jwiaduck/jwiaduck.github.io"
+minimal_mistakes_skin     : "air"
+search                    : false
 # masthead_title: "My Custom Title"
 
 # Build settings
-cancel-in-progress: true
-markdown: kramdown
+cancel-in-progress        : true
+markdown                  : kramdown
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: America/New_Yorks # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink                 : /:categories/:title/
+paginate                  : 5 # amount of posts to show
+paginate_path             : /page:num/
+timezone                  : America/New_Yorks # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -93,7 +95,7 @@ footer:
     #   url: "https://twitter.com/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://jwiaduck@github.io"
+      url: "https://jwiaduck.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
