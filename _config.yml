@@ -80,7 +80,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -100,7 +100,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwiaduck"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
 defaults:
   # _posts
