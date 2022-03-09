@@ -70,57 +70,54 @@ author:
   avatar : "/assets/images/github_profile.png"
   bio    : "Software Development Engineer.<br>CSE @ Umich."
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jwiaduck+github@umich.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jwiaduck@github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jwiaduck"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label : "Email"
+      icon  : "fas fa-fw fa-envelope-square"
+      url   : "mailto:jwiaduck+github@umich.edu"
+    - label : "Website"
+      icon  : "fas fa-fw fa-link"
+      url   : "https://jwiaduck@github.io"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/jwiaduck"
+    - label : "LinkedIn"
+      icon  : "fab fa-fw fa-linkedin"
+      url   : "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
+    # - label  : "Instagram"
+    #   icon   : "fab fa-fw fa-instagram"
+    #   url    : "https://instagram.com/"
 footer:
   links:
-    # - label: "Email"
-      # icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:jwiaduck+github@umich.edu"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jwiaduck.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jwiaduck"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
-defaults:
+    # - label : "Email"
+      # icon  : "fas fa-fw fa-envelope-square"
+      # url   : "mailto:jwiaduck+github@umich.edu"
+    - label : "Website"
+      icon  : "fas fa-fw fa-link"
+      url   : "https://jwiaduck.github.io"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/jwiaduck"
+    - label : "LinkedIn"
+      icon  : "fab fa-fw fa-linkedin"
+      url   : "https://www.linkedin.com/in/james-wiaduck-aab9ba159/"
+defaults    :
   # _posts
   - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
+      path  : ""
+      type  : posts
+    values  :
+      layout        : single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
+      read_time     : false
+      comments      : false
+      share         : false
+      related       : false
       # show_date: true
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
+      path  : "_pages"
+      type  : pages
     values:
-      layout: single
+      layout        : single
       author_profile: true
 
 category_archive:
